@@ -1,4 +1,6 @@
-package org.example;
+package JdbcRetrieve;
+
+import data.data;
 
 import java.sql.PreparedStatement;
 import java.sql.Connection;
@@ -13,9 +15,9 @@ public class JdbcRetrieve {
 
     public Vector<data> Retrieve(String BO) {
 
-        String url = "jdbc:mysql://localhost:3306/product_sales_"+BO;
+        String url = "jdbc:mysql://localhost:3306/product_sales_BO1";
         String user = "root";
-        String password = "root";
+        String password = "Farah123.";
         String query = "SELECT * FROM sales";
         Vector<data> d = new Vector<data>(1);
 

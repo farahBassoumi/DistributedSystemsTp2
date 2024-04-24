@@ -1,16 +1,17 @@
-package org.example;
+package Recieve;
+import JdbcInsert.JdbcInsert;
 import com.rabbitmq.client.*;
 
 public class Recieve {
 
-    private final String QUEUE_NAME="";
-    private final ConnectionFactory factory;
-    private final Connection connection;
-    private final Channel channel;
+    private String QUEUE_NAME;
+    private  ConnectionFactory factory;
+    private  Connection connection;
+    private  Channel channel;
     private int messagesReceived = 0;
     private int totalMessages;
 
-    public Receive(String queueName) throws Exception {
+    public Recieve(String queueName) throws Exception {
         QUEUE_NAME = queueName;
         factory = new ConnectionFactory();
         factory.setHost("localhost");

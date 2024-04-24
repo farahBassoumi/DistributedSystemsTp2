@@ -1,4 +1,4 @@
-package org.example;
+package JdbcDelete;
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;

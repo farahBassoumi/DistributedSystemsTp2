@@ -1,4 +1,10 @@
-package org.example;
+package BO;
+import JdbcDelete.JdbcDelete;
+import JdbcInsert.JdbcInsert;
+import JdbcRetrieve.JdbcRetrieve;
+import data.data;
+import send.send;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.Vector;

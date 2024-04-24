@@ -1,7 +1,5 @@
-package org.example;
+package data;
 import java.util.*;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 
 public class data {
     public String  date;
@@ -27,11 +25,7 @@ public class data {
         return s;
     }
 
-    /**
-     *
-     * @param dataString witch must be in the form  "Date : "+ date + " , Region : "+Region+" , Product : "+Product+" , Qty : "+Qty  +", Cost : "+Cost+", Amount : "+Amount+" , Tax : "+Tax+" , Total : "+Total
-     * @return
-     */
+
     public static data toData(String dataString){
         String[] parts = dataString.split("\\s*,\\s*");
 

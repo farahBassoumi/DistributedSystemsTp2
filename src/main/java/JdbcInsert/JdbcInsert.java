@@ -1,4 +1,6 @@
-package org.example;
+package JdbcInsert;
+import data.data;
+
 import java.sql.*;
 import java.sql.PreparedStatement ;
 import java.util.logging.Level;

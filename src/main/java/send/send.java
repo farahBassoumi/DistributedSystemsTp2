@@ -1,7 +1,10 @@
-package org.example;
+package send;
 import com. rabbitmq. client. ConnectionFactory;
 import com. rabbitmq.client.Connection;
 import com. rabbitmq. client.Channel;
+import data.data;
+import JdbcRetrieve.JdbcRetrieve;
+
 import java.util.Vector;
 
 public class send {
