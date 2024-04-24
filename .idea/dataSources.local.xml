@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-233.14475.28">
-    <data-source name="gestionnairecv@localhost" uuid="b0517091-e26c-4ff2-9b12-70c622519bd8">
+    <data-source name="@localhost" uuid="b0517091-e26c-4ff2-9b12-70c622519bd8">
       <database-info product="MySQL" version="8.0.36" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.36" exact-driver-version="8.2">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -16,6 +16,8 @@
             <name qname="product_sales_bo1" />
             <name qname="gestionnairecv" />
             <name qname="tpsys2" />
+            <name qname="product_sales" />
+            <name qname="product_sales_bo2" />
           </node>
         </introspection-scope>
       </schema-mapping>

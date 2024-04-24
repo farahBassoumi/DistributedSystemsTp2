@@ -15,7 +15,10 @@ public class JdbcRetrieve {
 
     public Vector<data> Retrieve(String BO) {
 
-        String url = "jdbc:mysql://localhost:3306/product_sales_BO1";
+       // String url = "jdbc:mysql://localhost:3306/product_sales_"+BO;
+
+        String url = "jdbc:mysql://localhost:3306/product_sales_BO1?useSSL=false";
+
         String user = "root";
         String password = "Farah123.";
         String query = "SELECT * FROM sales";

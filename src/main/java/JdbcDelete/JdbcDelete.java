@@ -9,7 +9,7 @@ public class JdbcDelete {
     public boolean deleteSales(String BO) {
         String url = "jdbc:mysql://localhost:3306/product_sales_" + BO;
         String user = "root";
-        String password = "root";
+        String password = "Farah123.";
         String query = "DELETE FROM sales";
 
         try (Connection con = DriverManager.getConnection(url, user, password);
